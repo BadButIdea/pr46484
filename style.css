@@ -1,0 +1,71 @@
+
+*{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+	color: rgba(65, 65, 65, 0.662);
+}
+.tr470_2 > td {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+}
+#table474 {
+	border: 1px solid black;
+}
+.deletep {
+	text-decoration: line-through;
+}
+.hidden {
+	display: none;
+}
+.active {
+	background: red;
+}
+.color1 {
+	background: red;
+}
+.color2 {
+	background: green;
+}
+
+button {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 25px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+}
+button:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+button:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+button:active {
+	background-color: #808080;
+}
+button:disabled {
+	background-color: #eee;
+	border-color: #eee;
+	color: #444;
+	cursor: not-allowed;
+}
